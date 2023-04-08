@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37F30FC329E1A4DF0042FAD9 /* linkdlmanagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FC229E1A4DF0042FAD9 /* linkdlmanagerApp.swift */; };
+		37F30FC529E1A4DF0042FAD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FC429E1A4DF0042FAD9 /* ContentView.swift */; };
+		37F30FC729E1A4E30042FAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F30FC629E1A4E30042FAD9 /* Assets.xcassets */; };
+		37F30FCA29E1A4E30042FAD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F30FC929E1A4E30042FAD9 /* Preview Assets.xcassets */; };
+		37F30FD429E1A4E30042FAD9 /* linkdlmanagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FD329E1A4E30042FAD9 /* linkdlmanagerTests.swift */; };
+		37F30FDE29E1A4E30042FAD9 /* linkdlmanagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FDD29E1A4E30042FAD9 /* linkdlmanagerUITests.swift */; };
+		37F30FE029E1A4E30042FAD9 /* linkdlmanagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FDF29E1A4E30042FAD9 /* linkdlmanagerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37F30FD029E1A4E30042FAD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F30FB729E1A4DF0042FAD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F30FBE29E1A4DF0042FAD9;
+			remoteInfo = linkdlmanager;
+		};
+		37F30FDA29E1A4E30042FAD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F30FB729E1A4DF0042FAD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F30FBE29E1A4DF0042FAD9;
+			remoteInfo = linkdlmanager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37F30FBF29E1A4DF0042FAD9 /* linkdlmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linkdlmanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F30FC229E1A4DF0042FAD9 /* linkdlmanagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkdlmanagerApp.swift; sourceTree = "<group>"; };
+		37F30FC429E1A4DF0042FAD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37F30FC629E1A4E30042FAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37F30FC929E1A4E30042FAD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37F30FCF29E1A4E30042FAD9 /* linkdlmanagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linkdlmanagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F30FD329E1A4E30042FAD9 /* linkdlmanagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkdlmanagerTests.swift; sourceTree = "<group>"; };
+		37F30FD929E1A4E30042FAD9 /* linkdlmanagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linkdlmanagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F30FDD29E1A4E30042FAD9 /* linkdlmanagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkdlmanagerUITests.swift; sourceTree = "<group>"; };
+		37F30FDF29E1A4E30042FAD9 /* linkdlmanagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkdlmanagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37F30FBC29E1A4DF0042FAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F30FCC29E1A4E30042FAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F30FD629E1A4E30042FAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F30FB629E1A4DF0042FAD9 = {
+			isa = PBXGroup;
+			children = (
+				37F30FC129E1A4DF0042FAD9 /* linkdlmanager */,
+				37F30FD229E1A4E30042FAD9 /* linkdlmanagerTests */,
+				37F30FDC29E1A4E30042FAD9 /* linkdlmanagerUITests */,
+				37F30FC029E1A4DF0042FAD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37F30FC029E1A4DF0042FAD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F30FBF29E1A4DF0042FAD9 /* linkdlmanager.app */,
+				37F30FCF29E1A4E30042FAD9 /* linkdlmanagerTests.xctest */,
+				37F30FD929E1A4E30042FAD9 /* linkdlmanagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37F30FC129E1A4DF0042FAD9 /* linkdlmanager */ = {
+			isa = PBXGroup;
+			children = (
+				37F30FC229E1A4DF0042FAD9 /* linkdlmanagerApp.swift */,
+				37F30FC429E1A4DF0042FAD9 /* ContentView.swift */,
+				37F30FC629E1A4E30042FAD9 /* Assets.xcassets */,
+				37F30FC829E1A4E30042FAD9 /* Preview Content */,
+			);
+			path = linkdlmanager;
+			sourceTree = "<group>";
+		};
+		37F30FC829E1A4E30042FAD9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37F30FC929E1A4E30042FAD9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37F30FD229E1A4E30042FAD9 /* linkdlmanagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				37F30FD329E1A4E30042FAD9 /* linkdlmanagerTests.swift */,
+			);
+			path = linkdlmanagerTests;
+			sourceTree = "<group>";
+		};
+		37F30FDC29E1A4E30042FAD9 /* linkdlmanagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37F30FDD29E1A4E30042FAD9 /* linkdlmanagerUITests.swift */,
+				37F30FDF29E1A4E30042FAD9 /* linkdlmanagerUITestsLaunchTests.swift */,
+			);
+			path = linkdlmanagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37F30FBE29E1A4DF0042FAD9 /* linkdlmanager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F30FE329E1A4E30042FAD9 /* Build configuration list for PBXNativeTarget "linkdlmanager" */;
+			buildPhases = (
+				37F30FBB29E1A4DF0042FAD9 /* Sources */,
+				37F30FBC29E1A4DF0042FAD9 /* Frameworks */,
+				37F30FBD29E1A4DF0042FAD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = linkdlmanager;
+			productName = linkdlmanager;
+			productReference = 37F30FBF29E1A4DF0042FAD9 /* linkdlmanager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37F30FCE29E1A4E30042FAD9 /* linkdlmanagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F30FE629E1A4E30042FAD9 /* Build configuration list for PBXNativeTarget "linkdlmanagerTests" */;
+			buildPhases = (
+				37F30FCB29E1A4E30042FAD9 /* Sources */,
+				37F30FCC29E1A4E30042FAD9 /* Frameworks */,
+				37F30FCD29E1A4E30042FAD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37F30FD129E1A4E30042FAD9 /* PBXTargetDependency */,
+			);
+			name = linkdlmanagerTests;
+			productName = linkdlmanagerTests;
+			productReference = 37F30FCF29E1A4E30042FAD9 /* linkdlmanagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37F30FD829E1A4E30042FAD9 /* linkdlmanagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F30FE929E1A4E30042FAD9 /* Build configuration list for PBXNativeTarget "linkdlmanagerUITests" */;
+			buildPhases = (
+				37F30FD529E1A4E30042FAD9 /* Sources */,
+				37F30FD629E1A4E30042FAD9 /* Frameworks */,
+				37F30FD729E1A4E30042FAD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37F30FDB29E1A4E30042FAD9 /* PBXTargetDependency */,
+			);
+			name = linkdlmanagerUITests;
+			productName = linkdlmanagerUITests;
+			productReference = 37F30FD929E1A4E30042FAD9 /* linkdlmanagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37F30FB729E1A4DF0042FAD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					37F30FBE29E1A4DF0042FAD9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					37F30FCE29E1A4E30042FAD9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 37F30FBE29E1A4DF0042FAD9;
+					};
+					37F30FD829E1A4E30042FAD9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 37F30FBE29E1A4DF0042FAD9;
+					};
+				};
+			};
+			buildConfigurationList = 37F30FBA29E1A4DF0042FAD9 /* Build configuration list for PBXProject "linkdlmanager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37F30FB629E1A4DF0042FAD9;
+			productRefGroup = 37F30FC029E1A4DF0042FAD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37F30FBE29E1A4DF0042FAD9 /* linkdlmanager */,
+				37F30FCE29E1A4E30042FAD9 /* linkdlmanagerTests */,
+				37F30FD829E1A4E30042FAD9 /* linkdlmanagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37F30FBD29E1A4DF0042FAD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F30FCA29E1A4E30042FAD9 /* Preview Assets.xcassets in Resources */,
+				37F30FC729E1A4E30042FAD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F30FCD29E1A4E30042FAD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F30FD729E1A4E30042FAD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F30FBB29E1A4DF0042FAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F30FC529E1A4DF0042FAD9 /* ContentView.swift in Sources */,
+				37F30FC329E1A4DF0042FAD9 /* linkdlmanagerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F30FCB29E1A4E30042FAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F30FD429E1A4E30042FAD9 /* linkdlmanagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F30FD529E1A4E30042FAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F30FE029E1A4E30042FAD9 /* linkdlmanagerUITestsLaunchTests.swift in Sources */,
+				37F30FDE29E1A4E30042FAD9 /* linkdlmanagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37F30FD129E1A4E30042FAD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37F30FBE29E1A4DF0042FAD9 /* linkdlmanager */;
+			targetProxy = 37F30FD029E1A4E30042FAD9 /* PBXContainerItemProxy */;
+		};
+		37F30FDB29E1A4E30042FAD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37F30FBE29E1A4DF0042FAD9 /* linkdlmanager */;
+			targetProxy = 37F30FDA29E1A4E30042FAD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37F30FE129E1A4E30042FAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37F30FE229E1A4E30042FAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37F30FE429E1A4E30042FAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"linkdlmanager/Preview Content\"";
+				DEVELOPMENT_TEAM = 98265ZJ234;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gemasoftware.linkdlmanager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37F30FE529E1A4E30042FAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"linkdlmanager/Preview Content\"";
+				DEVELOPMENT_TEAM = 98265ZJ234;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gemasoftware.linkdlmanager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37F30FE729E1A4E30042FAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98265ZJ234;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gemasoftware.linkdlmanagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linkdlmanager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/linkdlmanager";
+			};
+			name = Debug;
+		};
+		37F30FE829E1A4E30042FAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98265ZJ234;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gemasoftware.linkdlmanagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linkdlmanager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/linkdlmanager";
+			};
+			name = Release;
+		};
+		37F30FEA29E1A4E30042FAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98265ZJ234;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gemasoftware.linkdlmanagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = linkdlmanager;
+			};
+			name = Debug;
+		};
+		37F30FEB29E1A4E30042FAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98265ZJ234;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gemasoftware.linkdlmanagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = linkdlmanager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37F30FBA29E1A4DF0042FAD9 /* Build configuration list for PBXProject "linkdlmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F30FE129E1A4E30042FAD9 /* Debug */,
+				37F30FE229E1A4E30042FAD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F30FE329E1A4E30042FAD9 /* Build configuration list for PBXNativeTarget "linkdlmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F30FE429E1A4E30042FAD9 /* Debug */,
+				37F30FE529E1A4E30042FAD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F30FE629E1A4E30042FAD9 /* Build configuration list for PBXNativeTarget "linkdlmanagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F30FE729E1A4E30042FAD9 /* Debug */,
+				37F30FE829E1A4E30042FAD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F30FE929E1A4E30042FAD9 /* Build configuration list for PBXNativeTarget "linkdlmanagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F30FEA29E1A4E30042FAD9 /* Debug */,
+				37F30FEB29E1A4E30042FAD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37F30FB729E1A4DF0042FAD9 /* Project object */;
+}
