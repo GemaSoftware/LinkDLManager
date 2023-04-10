@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37336F2929E205D5005971A8 /* SendLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37336F2829E205D5005971A8 /* SendLinkView.swift */; };
+		37336F2D29E2F03B005971A8 /* ClientDM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37336F2B29E2F03B005971A8 /* ClientDM.xcdatamodeld */; };
+		37336F2F29E2F53E005971A8 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37336F2E29E2F53E005971A8 /* Settings.swift */; };
+		37336F3329E2FB29005971A8 /* CreateClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37336F3229E2FB29005971A8 /* CreateClientView.swift */; };
+		37336F3629E2FFF3005971A8 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 37336F3529E2FFF3005971A8 /* AlertToast */; };
+		375B50F829E31E0A002CED61 /* ClientDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B50F729E31E0A002CED61 /* ClientDataController.swift */; };
+		375B50FA29E320D8002CED61 /* HomeClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B50F929E320D8002CED61 /* HomeClientView.swift */; };
+		375B50FC29E331C3002CED61 /* EditClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B50FB29E331C3002CED61 /* EditClientView.swift */; };
+		375B510129E3817B002CED61 /* LazyViewSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 375B510029E3817B002CED61 /* LazyViewSwiftUI */; };
+		375B510329E399A8002CED61 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B510229E399A8002CED61 /* SettingsViewModel.swift */; };
+		3789500329E1BA6B00807AE6 /* ClientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3789500229E1BA6B00807AE6 /* ClientViewModel.swift */; };
+		3789500529E1C55900807AE6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3789500429E1C55900807AE6 /* File.swift */; };
 		37F30FC329E1A4DF0042FAD9 /* linkdlmanagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FC229E1A4DF0042FAD9 /* linkdlmanagerApp.swift */; };
 		37F30FC529E1A4DF0042FAD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FC429E1A4DF0042FAD9 /* ContentView.swift */; };
 		37F30FC729E1A4E30042FAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F30FC629E1A4E30042FAD9 /* Assets.xcassets */; };
@@ -14,6 +26,8 @@
 		37F30FD429E1A4E30042FAD9 /* linkdlmanagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FD329E1A4E30042FAD9 /* linkdlmanagerTests.swift */; };
 		37F30FDE29E1A4E30042FAD9 /* linkdlmanagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FDD29E1A4E30042FAD9 /* linkdlmanagerUITests.swift */; };
 		37F30FE029E1A4E30042FAD9 /* linkdlmanagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FDF29E1A4E30042FAD9 /* linkdlmanagerUITestsLaunchTests.swift */; };
+		37F30FEE29E1AC530042FAD9 /* ClientStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FED29E1AC530042FAD9 /* ClientStatusView.swift */; };
+		37F30FF129E1AC9B0042FAD9 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F30FF029E1AC9B0042FAD9 /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37336F2829E205D5005971A8 /* SendLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendLinkView.swift; sourceTree = "<group>"; };
+		37336F2C29E2F03B005971A8 /* ClientDM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClientDM.xcdatamodel; sourceTree = "<group>"; };
+		37336F2E29E2F53E005971A8 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		37336F3229E2FB29005971A8 /* CreateClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateClientView.swift; sourceTree = "<group>"; };
+		375B50F729E31E0A002CED61 /* ClientDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDataController.swift; sourceTree = "<group>"; };
+		375B50F929E320D8002CED61 /* HomeClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClientView.swift; sourceTree = "<group>"; };
+		375B50FB29E331C3002CED61 /* EditClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditClientView.swift; sourceTree = "<group>"; };
+		375B510229E399A8002CED61 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		3789500229E1BA6B00807AE6 /* ClientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientViewModel.swift; sourceTree = "<group>"; };
+		3789500429E1C55900807AE6 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		37F30FBF29E1A4DF0042FAD9 /* linkdlmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linkdlmanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F30FC229E1A4DF0042FAD9 /* linkdlmanagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkdlmanagerApp.swift; sourceTree = "<group>"; };
 		37F30FC429E1A4DF0042FAD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +68,8 @@
 		37F30FD929E1A4E30042FAD9 /* linkdlmanagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linkdlmanagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F30FDD29E1A4E30042FAD9 /* linkdlmanagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkdlmanagerUITests.swift; sourceTree = "<group>"; };
 		37F30FDF29E1A4E30042FAD9 /* linkdlmanagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkdlmanagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37F30FED29E1AC530042FAD9 /* ClientStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientStatusView.swift; sourceTree = "<group>"; };
+		37F30FF029E1AC9B0042FAD9 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37336F3629E2FFF3005971A8 /* AlertToast in Frameworks */,
+				375B510129E3817B002CED61 /* LazyViewSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +99,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37336F2A29E2F01D005971A8 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				37336F2B29E2F03B005971A8 /* ClientDM.xcdatamodeld */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		375B50F629E31C10002CED61 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				375B50F729E31E0A002CED61 /* ClientDataController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		375B510429E399DA002CED61 /* SettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				37336F2E29E2F53E005971A8 /* Settings.swift */,
+				37336F3229E2FB29005971A8 /* CreateClientView.swift */,
+				375B50FB29E331C3002CED61 /* EditClientView.swift */,
+			);
+			path = SettingsViews;
+			sourceTree = "<group>";
+		};
+		375B510529E399F8002CED61 /* MainAppViews */ = {
+			isa = PBXGroup;
+			children = (
+				37F30FC229E1A4DF0042FAD9 /* linkdlmanagerApp.swift */,
+				37F30FC429E1A4DF0042FAD9 /* ContentView.swift */,
+			);
+			path = MainAppViews;
+			sourceTree = "<group>";
+		};
+		375B510629E39A0C002CED61 /* ClientViews */ = {
+			isa = PBXGroup;
+			children = (
+				37F30FED29E1AC530042FAD9 /* ClientStatusView.swift */,
+				375B50F929E320D8002CED61 /* HomeClientView.swift */,
+				37336F2829E205D5005971A8 /* SendLinkView.swift */,
+			);
+			path = ClientViews;
+			sourceTree = "<group>";
+		};
+		3789500129E1BA5A00807AE6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3789500229E1BA6B00807AE6 /* ClientViewModel.swift */,
+				375B510229E399A8002CED61 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		37F30FB629E1A4DF0042FAD9 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +176,11 @@
 		37F30FC129E1A4DF0042FAD9 /* linkdlmanager */ = {
 			isa = PBXGroup;
 			children = (
-				37F30FC229E1A4DF0042FAD9 /* linkdlmanagerApp.swift */,
-				37F30FC429E1A4DF0042FAD9 /* ContentView.swift */,
+				375B50F629E31C10002CED61 /* CoreData */,
+				37336F2A29E2F01D005971A8 /* Data Models */,
+				3789500129E1BA5A00807AE6 /* ViewModels */,
+				37F30FEF29E1AC8A0042FAD9 /* Models */,
+				37F30FEC29E1AA630042FAD9 /* Views */,
 				37F30FC629E1A4E30042FAD9 /* Assets.xcassets */,
 				37F30FC829E1A4E30042FAD9 /* Preview Content */,
 			);
@@ -127,6 +212,25 @@
 			path = linkdlmanagerUITests;
 			sourceTree = "<group>";
 		};
+		37F30FEC29E1AA630042FAD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				375B510629E39A0C002CED61 /* ClientViews */,
+				375B510529E399F8002CED61 /* MainAppViews */,
+				375B510429E399DA002CED61 /* SettingsViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37F30FEF29E1AC8A0042FAD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37F30FF029E1AC9B0042FAD9 /* Client.swift */,
+				3789500429E1C55900807AE6 /* File.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +247,10 @@
 			dependencies = (
 			);
 			name = linkdlmanager;
+			packageProductDependencies = (
+				37336F3529E2FFF3005971A8 /* AlertToast */,
+				375B510029E3817B002CED61 /* LazyViewSwiftUI */,
+			);
 			productName = linkdlmanager;
 			productReference = 37F30FBF29E1A4DF0042FAD9 /* linkdlmanager.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +323,10 @@
 				Base,
 			);
 			mainGroup = 37F30FB629E1A4DF0042FAD9;
+			packageReferences = (
+				37336F3429E2FFF3005971A8 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				375B50FF29E3817B002CED61 /* XCRemoteSwiftPackageReference "Lazy-View-SwiftUI" */,
+			);
 			productRefGroup = 37F30FC029E1A4DF0042FAD9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +369,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37336F3329E2FB29005971A8 /* CreateClientView.swift in Sources */,
+				37F30FEE29E1AC530042FAD9 /* ClientStatusView.swift in Sources */,
+				375B50FA29E320D8002CED61 /* HomeClientView.swift in Sources */,
+				3789500529E1C55900807AE6 /* File.swift in Sources */,
 				37F30FC529E1A4DF0042FAD9 /* ContentView.swift in Sources */,
+				375B510329E399A8002CED61 /* SettingsViewModel.swift in Sources */,
+				37336F2929E205D5005971A8 /* SendLinkView.swift in Sources */,
+				3789500329E1BA6B00807AE6 /* ClientViewModel.swift in Sources */,
+				37336F2D29E2F03B005971A8 /* ClientDM.xcdatamodeld in Sources */,
+				37336F2F29E2F53E005971A8 /* Settings.swift in Sources */,
+				37F30FF129E1AC9B0042FAD9 /* Client.swift in Sources */,
+				375B50F829E31E0A002CED61 /* ClientDataController.swift in Sources */,
 				37F30FC329E1A4DF0042FAD9 /* linkdlmanagerApp.swift in Sources */,
+				375B50FC29E331C3002CED61 /* EditClientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +549,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +579,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +709,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37336F3429E2FFF3005971A8 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		375B50FF29E3817B002CED61 /* XCRemoteSwiftPackageReference "Lazy-View-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joehinkle11/Lazy-View-SwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37336F3529E2FFF3005971A8 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37336F3429E2FFF3005971A8 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		375B510029E3817B002CED61 /* LazyViewSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 375B50FF29E3817B002CED61 /* XCRemoteSwiftPackageReference "Lazy-View-SwiftUI" */;
+			productName = LazyViewSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		37336F2B29E2F03B005971A8 /* ClientDM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37336F2C29E2F03B005971A8 /* ClientDM.xcdatamodel */,
+			);
+			currentVersion = 37336F2C29E2F03B005971A8 /* ClientDM.xcdatamodel */;
+			path = ClientDM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 37F30FB729E1A4DF0042FAD9 /* Project object */;
 }

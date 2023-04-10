@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct linkdlmanagerApp: App {
+    let mainvm = SettingsViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(mainvm)
         }
     }
 }

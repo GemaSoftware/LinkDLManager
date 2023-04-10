@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E252" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ClientAuthentication" representedClassName="ClientAuthentication" syncable="YES" codeGenerationType="class">
+        <attribute name="cauthID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="userCookie" optional="YES" attributeType="String"/>
+        <attribute name="userCookieCreated" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userExpires" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="userPassword" optional="YES" attributeType="String"/>
+        <relationship name="clientRel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ClientE" inverseName="clientAuth" inverseEntity="ClientE"/>
+    </entity>
+    <entity name="ClientE" representedClassName="ClientE" syncable="YES" codeGenerationType="class">
+        <attribute name="clientConnectionURL" optional="YES" attributeType="String"/>
+        <attribute name="clientNickname" optional="YES" attributeType="String"/>
+        <attribute name="clientType" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="clientAuth" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ClientAuthentication" inverseName="clientRel" inverseEntity="ClientAuthentication"/>
+    </entity>
+</model>
